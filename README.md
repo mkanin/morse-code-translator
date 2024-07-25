@@ -5,9 +5,9 @@ This Morse Code Translator application demonstrates encodind and decoding functi
 
 ## How to install the project on your local machine?
 
-1. Create virtualenve
+1. Create virtualenv
 
-python3 - m venv venv
+python3 -m venv venv
 
 2. Activate virtualenv
 
