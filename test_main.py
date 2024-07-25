@@ -37,7 +37,7 @@ def test_decode_word(letters_code, exp_word):
     [
         ("", ""),
         ("ABC", ".- -... -.-."),
-        ("ABC CBA", ".- -... -.-. -.-. -... .-"),
+        ("ABC CBA", ".- -... -.-.  -.-. -... .-"),
     ]
 )
 def test_encode(sentence, exp_code):

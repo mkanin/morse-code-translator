@@ -17,7 +17,7 @@ def encode(sentence):
     words = sentence.split()
     codes = [encode_word(word) for word in words]
 
-    return " ".join(codes)
+    return "  ".join(codes)
 
 
 def decode_word(encoded_word):
